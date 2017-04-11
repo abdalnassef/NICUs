@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1009988153555",
+    "firebase_url": "https://nicu-base.firebaseio.com",
+    "project_id": "nicu-base",
+    "storage_bucket": "nicu-base.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009988153555:android:7f99b3373d460735",
+        "android_client_info": {
+          "package_name": "com.mohamed.rami.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009988153555-4th8gd90oieb0r06nashmdtlkfh9j9qf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBS5L4AyzGIDluvSKi-4jwXUAoDsnbt1Ks"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
