@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/regName"
+        android:text="Menoufia 1 Kilometer NORTH"
+        android:textSize="30dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="pro"
+        android:background="@color/colorAccent"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/regEmail"
+        android:layout_below="@+id/regName"
+        android:textColor="@android:color/holo_blue_dark"
+        android:text="Elshima "
+        android:textSize="30dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="pro"
+        android:background="@color/colorAccent"
+                />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/regPass"
+        android:layout_below="@+id/regEmail"
+        android:text="Nile Badrawi"
+        android:textSize="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorAccent"
+        android:onClick="pro"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/regConfPass"
+        android:layout_below="@+id/regPass"
+        android:text="Al Hayat Medical Center"
+        android:textSize="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorAccent"
+        android:onClick="pro"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t5"
+        android:layout_below="@+id/regConfPass"
+        android:text="Tabarak Hospital "
+        android:textSize="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorAccent"
+        android:onClick="pro"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t6"
+        android:layout_below="@+id/t5"
+        android:text="مستشفى الجزيرة"
+        android:textSize="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorAccent"
+        android:onClick="map"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t7"
+        android:layout_below="@+id/t6"
+        android:text="harlem hospital"
+        android:textSize="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorAccent"
+        android:onClick="pro"/>
+</RelativeLayout>

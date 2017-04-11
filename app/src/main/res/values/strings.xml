@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">NICUs</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="bold"> <b>Belgrade</b></string>
+
+    <string name="departure"><b>Departure 12:40</b></string>
+
+    <string name="price"><b>21,829 USD</b></string>
+
+    <string name="title"> <b>اختر من الحضانات المتاحة </b></string>
+    <string name="next">التالي</string>
+    <string name="skip">تخطي</string>
+    <string name="start">إبدأ</string>
+
+    <string name="slide_1_title">مرحبا بك!</string>
+    <string name="slide_1_desc">أسهل طريقة لمعرفة أماكن و كافة المعلومات عن مراكز  الحضانات  الأطفال المبتسرين  حولك  </string>
+
+    <string name="slide_2_title">البحث بواسطة الخريطة</string>
+    <string name="slide_2_desc">تظهر مراكز الحضانات حولك علي الخريطة كل ما عليك فعلة الضغط علي مركز الحضانة المراد الاتجاة اليها </string>
+
+    <string name="slide_3_title">معلومات عن مركز الحضانة</string>
+    <string name="slide_3_desc">هنا تجد كافة التفاصيل عن  مركز الحضانة من حيث الأسعار  و المكان و الهاتف و عدد الحضانات الخالية بها </string>
+
+    <string name="slide_4_title">التواصل معنا </string>
+    <string name="slide_4_desc">كوننا نسعى لتوفير خدمات متطورة تلبي احتياجاتكم المتنوعة؛ فإننا نحب بكل ما لديكم من ملاحظات، آراء، اقتراحات، شكاوى أو استفسارات حول التتطبيق يرجي أخبارنا </string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

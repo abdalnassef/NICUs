@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfile">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+       >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/main"
+            android:id="@+id/nicuImageee"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="25dp"
+            android:layout_gravity="center"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="top"
+            android:padding="16dp">
+
+
+
+
+
+        <customfonts.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:gravity="center"
+            />
+
+
+
+
+
+           </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="bottom">
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="20dp"
+                    >
+
+
+
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="20dp"
+                    >
+
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </FrameLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="-400dp">
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="380dp"
+        android:layout_alignParentBottom="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+
+            <customfonts.MyTextView
+                android:layout_weight="1"
+                android:id="@+id/nnnnnn"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Al Noor NICU"
+                android:textColorHint="#181737"
+                android:textColor="#181737"
+                android:background="#0000"
+                android:padding="16dp"
+                android:gravity="right"
+                 />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dad8d8"/>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+
+
+            <customfonts.MyTextView
+                android:layout_weight="1"
+                android:maxLines="3"
+                android:id="@+id/address"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1b193b"
+                android:text="Shebeen El koom"
+                android:textColor="#181737"
+                android:background="#0000"
+                android:padding="16dp"
+                android:gravity="right"
+                />
+        </LinearLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dad8d8"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+
+
+            <customfonts.MyTextView
+                android:layout_weight="1"
+                android:id="@+id/empty"
+                android:textSize="16dp"
+                android:maxLines="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1b193b"
+                android:inputType="number"
+                android:text="25"
+                android:textColor="#181737"
+                android:background="#0000"
+                android:padding="16dp"
+                android:gravity="right"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dad8d8"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+
+            <customfonts.MyTextView
+                android:layout_weight="1"
+                android:maxLines="3"
+                android:id="@+id/price"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1b193b"
+                android:text="500 LE"
+                android:textColor="#181737"
+                android:background="#0000"
+                android:padding="16dp"
+                android:gravity="right"
+                />
+
+            <!--<ToggleButton-->
+            <!--android:id="@+id/ToggleButton1"-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="32dp"-->
+            <!--android:paddingLeft="20dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@drawable/toogle_switch"-->
+
+            <!--/>-->
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dad8d8"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+
+
+            <customfonts.MyTextView
+                android:layout_weight="1"
+                android:maxLines="3"
+                android:id="@+id/phone"
+                android:textSize="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#1b193b"
+                android:inputType="phone"
+                android:text="01010589447"
+                android:textColor="#181737"
+                android:background="#0000"
+                android:padding="16dp"
+                android:gravity="right"
+                />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dad8d8" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+
+
+            <customfonts.MyTextView
+                android:layout_weight="1"
+                android:id="@+id/desc"
+                android:textSize="16dp"
+                android:maxLines="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="الحضانه مجهزه باحدث الاجهزة بالاضافه الى اجهزه السباب و الاوكسجين"
+                android:textColorHint="#181737"
+                android:background="#0000"
+                android:padding="16dp"
+                android:gravity="right"
+                />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dad8d8"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+        <!--    <customfonts.MyTextView
+
+                android:id="@+id/edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rect1"
+                android:text="إرشدني"
+                android:textSize="16dp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:padding="12dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="11dp"
+                android:elevation="3dp"
+                android:onClick="guideme"
+
+
+
+                />-->
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>

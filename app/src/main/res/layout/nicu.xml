@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:background="@drawable/arrowmain">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/profiletransparent"
+                android:scaleType="fitXY"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                >
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:src="@drawable/back"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="20dp"
+
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:src="@drawable/search"
+                    android:layout_marginTop="25dp"
+                    android:layout_alignParentRight="true"
+
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="right"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    >
+
+                    <customfonts.MyTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="NICUs"
+                        android:textSize="30dp"
+                        android:textColor="#fff"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_marginBottom="1dp"
+                        android:letterSpacing="0.1"
+                        android:id="@+id/name"/>
+
+
+                    <LinearLayout
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        >
+                        <customfonts.MyTextView
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/roundedborder"
+                            android:text="Guide me"
+                            android:gravity="center"
+                            android:padding="12dp"
+                            android:textColor="#fff"
+
+
+
+                            />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </FrameLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp">
+
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:src="@drawable/locate"
+                android:layout_gravity="right"
+                android:id="@+id/imageView2" />
+
+            <customfonts.MyTextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6 octoper"
+                android:textColor="@color/colorHead"
+                android:layout_gravity="center"
+                android:id="@+id/place"
+                />
+
+            <customfonts.MyTextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.2 km"
+                android:textColor="@color/colorHead"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/num"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp">
+
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+
+                android:layout_gravity="right"
+                />
+
+            <customfonts.MyTextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tel"
+                android:textColor="@color/colorHead"
+                android:layout_gravity="center"
+                />
+
+            <customfonts.MyTextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="01003077485 km"
+                android:textColor="@color/colorHead"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:id="@+id/tel"
+                />
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp">
+
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            />
+
+        <customfonts.MyTextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add"
+            android:textColor="@color/colorHead"
+            android:layout_gravity="center"
+            />
+
+        <customfonts.MyTextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="شبين الكوم-عمر-برج الراية-الدورالثالث"
+            android:textColor="@color/colorHead"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/add"
+
+            />
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:background="#c6cbcf"
+            android:layout_marginTop="20dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <customfonts.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5321"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorHead"/>
+                <customfonts.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Post"
+                    android:textColor="@color/colorpara"/>
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <customfonts.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="852"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorHead"/>
+                <customfonts.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Following"
+                    android:textColor="@color/colorpara"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <customfonts.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5562"
+                    android:textSize="20dp"
+                    android:textColor="@color/colorHead"/>
+                <customfonts.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Followers"
+                    android:textColor="@color/colorpara"/>
+            </LinearLayout>
+
+            <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:map="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                tools:context="com.example.mana3.nicu10.MapsActivity" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+</ScrollView>
+
+
+</RelativeLayout>

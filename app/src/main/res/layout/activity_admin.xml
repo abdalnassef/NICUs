@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_admin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="5px"
+    tools:context="com.mohamed.rami.firebase.Admin">
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_below="@+id/logo"
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <customfonts.MyTextView
+            android:layout_marginTop="50px"
+            android:id="@+id/head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Admin Panel"
+            android:textColor="#4c565f"
+            android:textSize="29dp"
+            android:gravity="center"
+
+            />
+
+
+        <customfonts.MyEditText
+
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NICU Name"
+            android:layout_marginLeft="46dp"
+            android:textColorHint="@color/colorhint"
+            android:textColor="@color/colortext"
+            android:maxLength="35"
+            android:background="#0000"
+            android:padding="16dp"
+            android:inputType="text"
+            android:gravity="left"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="12dp"
+            android:id="@+id/nicName"
+
+
+
+            />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="56dp"
+            android:layout_marginRight="56dp"
+            android:layout_height="1dp"
+            android:background="#59d58d"/>
+        <customfonts.MyEditText
+
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:layout_marginLeft="46dp"
+            android:textColorHint="@color/colorhint"
+            android:textColor="@color/colortext"
+            android:maxLength="35"
+            android:background="#0000"
+            android:padding="16dp"
+            android:gravity="left"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="12dp"
+            android:id="@+id/address"
+            android:inputType="text" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="56dp"
+            android:layout_marginRight="56dp"
+            android:layout_height="1dp"
+            android:background="#59d58d"/>
+
+
+        <customfonts.MyEditText
+
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Price per Night"
+            android:layout_marginLeft="46dp"
+            android:layout_marginRight="46dp"
+            android:textColorHint="@color/colorhint"
+            android:textColor="@color/colortext"
+            android:background="#0000"
+            android:padding="16dp"
+            android:inputType="numberDecimal"
+            android:drawableLeft="@drawable/pass"
+            android:drawablePadding="12dp"
+            android:id="@+id/price"
+
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="56dp"
+            android:layout_marginRight="56dp"
+            android:layout_height="1dp"
+            android:background="#59d58d"/>
+        <customfonts.MyEditText
+
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Latitude"
+            android:layout_marginLeft="46dp"
+            android:layout_marginRight="46dp"
+            android:textColorHint="@color/colorhint"
+            android:textColor="@color/colortext"
+            android:background="#0000"
+            android:padding="16dp"
+            android:inputType="numberDecimal"
+            android:drawableLeft="@drawable/pass"
+            android:drawablePadding="12dp"
+            android:id="@+id/latitude"
+
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="56dp"
+            android:layout_marginRight="56dp"
+            android:layout_height="1dp"
+            android:background="#59d58d"/>
+
+
+        <customfonts.MyEditText
+
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Longitude"
+            android:layout_marginLeft="46dp"
+            android:layout_marginRight="46dp"
+            android:textColorHint="@color/colorhint"
+            android:textColor="@color/colortext"
+            android:background="#0000"
+            android:padding="16dp"
+            android:inputType="numberDecimal"
+            android:drawableLeft="@drawable/pass"
+            android:drawablePadding="12dp"
+            android:id="@+id/longitude"
+
+
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="56dp"
+            android:layout_marginRight="56dp"
+            android:layout_height="1dp"
+            android:background="#59d58d"/>
+        <customfonts.MyEditText
+
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone"
+            android:layout_marginLeft="46dp"
+            android:layout_marginRight="46dp"
+            android:textColorHint="@color/colorhint"
+            android:textColor="@color/colortext"
+            android:background="#0000"
+            android:padding="16dp"
+            android:inputType="number"
+            android:drawableLeft="@drawable/pass"
+            android:drawablePadding="12dp"
+            android:id="@+id/phone"
+
+
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="56dp"
+            android:layout_marginRight="56dp"
+            android:layout_height="1dp"
+            android:background="#59d58d"/>
+        <customfonts.MyEditText
+
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NICU Count"
+            android:layout_marginLeft="46dp"
+            android:layout_marginRight="46dp"
+            android:textColorHint="@color/colorhint"
+            android:textColor="@color/colortext"
+            android:background="#0000"
+            android:padding="16dp"
+            android:inputType="number"
+            android:drawableLeft="@drawable/pass"
+            android:drawablePadding="12dp"
+            android:id="@+id/count"
+
+
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="56dp"
+            android:layout_marginRight="56dp"
+            android:layout_height="1dp"
+            android:background="#59d58d"/>
+
+        <customfonts.MyEditText
+
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Additional Description"
+            android:layout_marginLeft="46dp"
+            android:layout_marginRight="46dp"
+            android:textColorHint="@color/colorhint"
+            android:textColor="@color/colortext"
+            android:background="#0000"
+            android:padding="16dp"
+            android:drawableLeft="@drawable/pass"
+            android:drawablePadding="12dp"
+            android:id="@+id/additional"
+
+
+            android:inputType="text" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="56dp"
+            android:layout_marginRight="56dp"
+            android:layout_height="1dp"
+            android:background="#59d58d"/>
+        <customfonts.MyEditText
+
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:layout_marginLeft="46dp"
+            android:layout_marginRight="46dp"
+            android:textColorHint="@color/colorhint"
+            android:textColor="@color/colortext"
+            android:background="#0000"
+            android:padding="16dp"
+            android:inputType="text"
+            android:drawablePadding="12dp"
+            android:id="@+id/date"
+
+
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_marginLeft="56dp"
+            android:layout_marginRight="56dp"
+            android:layout_height="1dp"
+            android:background="#59d58d"/>
+
+        <customfonts.MyTextView
+
+            android:id="@+id/Edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rect1"
+            android:text="Edit"
+            android:textSize="16dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:padding="12dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="11dp"
+            android:elevation="3dp"
+            />
+
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>
